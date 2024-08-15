@@ -1,0 +1,167 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #35495e;
+}
+
+h1, h2, h3 {
+    color: #35495e;
+}
+
+/* Color Swatches */
+.color-swatch {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.primary-color {
+    background-color: #35495e;
+}
+
+.secondary-color {
+    background-color: #41b883;
+}
+
+.accent-color {
+    background-color: #f56c6c;
+}
+
+.color-info {
+    font-size: 1em;
+}
+
+/* Font Swatches */
+.font-swatch {
+    margin-bottom: 20px;
+}
+
+.font-plain {
+    font-weight: 400;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+/* Text Styles */
+.text-style-swatch {
+    margin-bottom: 20px;
+}
+
+.text-example {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.style-rules {
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+.btn-primary {
+    background-color: #35495e;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #41b883;
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: #f56c6c;
+    color: #fff;
+}
+
+/* Button Swatches */
+.button-examples {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button-swatch {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    .color-swatch, .font-swatch, .text-style-swatch, .button-swatch {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .color-box {
+        margin-bottom: 10px;
+    }
+}
